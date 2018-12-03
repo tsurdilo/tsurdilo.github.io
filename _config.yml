@@ -22,14 +22,29 @@ description: >- # this means to ignore newlines until "baseurl:"
 logo: assets/logo.png
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username: tsurdilo 
+github_username: tsurdilo
+#twitter_username: jekyllrb
+#github_username:  jekyll
+#rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+# youtube_channel_name: CloudCannon
+# telegram_username: jekyll
+# googleplus_username: +jekyll
+# microdotblog_username: jekyll
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+ - jekyll-feed
+ - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
