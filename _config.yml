@@ -17,10 +17,10 @@ title: Tihomir Surdilovic (tsurdilo) Blog
 email: tsurdilovic@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
   My personal blog. Talking about things that I am working on, mostly Serverless Workflows.
-logo: assets/logo.png
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tsurdilo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: tsurdilo
+logo: assets/logo.png
 #twitter_username: jekyllrb
 #github_username:  jekyll
 #rss: rss
@@ -39,7 +39,7 @@ github_username: tsurdilo
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-leap-day
+theme: minimal
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
